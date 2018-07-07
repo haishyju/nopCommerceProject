@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nopCommerseAutoFramework", "nopCommerse\nopCommerseAutoFramework.csproj", "{6B2A3630-EACE-449E-802B-5BBDF4F643E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nopCommerseTestProject", "E:\SHYJU\OFFICIAL\Testing\VerseGroupAssignment\nopCommerseTestProject\nopCommerseTestProject.csproj", "{F327E75C-CDAC-4F75-AAF7-82FFEF1D4301}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nopCommerseTestProject", "nopCommerseTestProject\nopCommerseTestProject.csproj", "{F327E75C-CDAC-4F75-AAF7-82FFEF1D4301}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
