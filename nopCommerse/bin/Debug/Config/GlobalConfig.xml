@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<nopCommerseAutoFramwork>
+  <RunSettings>
+    <AUT>https://www.nopcommerce.com/</AUT>
+    <!--Possible flag, Chrome, IE, Firefox -->
+    <Browser>Firefox</Browser>
+    <!--Possible flag, smoke. regression, unit-->
+    <TestType>Smoke</TestType>
+    <!--Possible flag, Y or N-->
+    <IsLog>N</IsLog>
+    
+    
+    </RunSettings>
+</nopCommerseAutoFramwork>
