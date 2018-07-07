@@ -18,7 +18,7 @@ namespace nopCommerseTestProject.Steps
         public void GivenIHaveNavigatedToTheApplication()
         {
 
-            // Navigate to site
+            //   Navigate to site
             NavigateSite();
             CurrentPage = GetInstance<HomePage>();
         }
