@@ -55,6 +55,9 @@
     <Reference Include="TechTalk.SpecFlow, Version=2.3.2.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
       <HintPath>..\packages\SpecFlow.2.3.2\lib\net45\TechTalk.SpecFlow.dll</HintPath>
     </Reference>
+    <Reference Include="TestReport.SpecFlow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\TestReport.SpecFlow.1.0.1\lib\net452\TestReport.SpecFlow.dll</HintPath>
+    </Reference>
     <Reference Include="WebDriver, Version=3.13.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.WebDriver.3.13.1\lib\net45\WebDriver.dll</HintPath>
     </Reference>
@@ -70,6 +73,8 @@
     <Compile Include="Base\DriverContext.cs" />
     <Compile Include="Config\ConfigReader.cs" />
     <Compile Include="Config\Settings.cs" />
+    <Compile Include="Extensions\WebDriverExtensions.cs" />
+    <Compile Include="Extensions\WebElementExtensions.cs" />
     <Compile Include="Helpers\DataHelperExtensions.cs" />
     <Compile Include="Helpers\ExcelHelpers.cs" />
     <Compile Include="Helpers\HtmlTableHelper.cs" />
@@ -80,6 +85,7 @@
     <Compile Include="Base\TestInitializeHook.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

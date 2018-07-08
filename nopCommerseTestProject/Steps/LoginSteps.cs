@@ -6,60 +6,61 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
+using TechTalk.SpecFlow.Assist;
 
 namespace nopCommerseTestProject.Steps
 {
-
     [Binding]
     public class LoginSteps : BaseStep
     {
-
         [Given(@"I have navigated to the application")]
         public void GivenIHaveNavigatedToTheApplication()
         {
-
-            //   Navigate to site
             NavigateSite();
             CurrentPage = GetInstance<HomePage>();
         }
-
+        
         [Given(@"I see application opened")]
         public void GivenISeeApplicationOpened()
         {
-            ScenarioContext.Current.Pending();
+            CurrentPage.As<HomePage>().CheckIfLoginLinkExist();
         }
-
-        [When(@"I clickon Login and I enter Username and Password")]
-        public void WhenIClickonLoginAndIEnterUsernameAndPassword(Table table)
+        
+        [When(@"I clickon Login")]
+        public void WhenIClickonLogin()
         {
-            ScenarioContext.Current.Pending();
+            CurrentPage = CurrentPage.As<HomePage>().ClickLoginLink();
         }
-
-        [Then(@"click login button")]
-        public void ThenClickLoginButton()
+        
+        [Then(@"I should see Loginpage")]
+        public void ThenIShouldSeeLoginpage()
         {
-            ScenarioContext.Current.Pending();
+            CurrentPage.As<LoginPage>().CheckIfLoginLinkExist();
         }
-
+        
+        [Then(@"I enter Username and Password")]
+        public void ThenIEnterUsernameAndPassword(Table table)
+        {
+            dynamic data = table.CreateDynamicInstance();
+            CurrentPage.As<LoginPage>().Login("howareu", "123123");
+        }
+        
+        [Then(@"I click login button")]
+        public void ThenIClickLoginButton()
+        {
+            CurrentPage = CurrentPage.As<LoginPage>().ClickLogin();
+        }
+        
         [Then(@"I should see the AccountHome Page")]
         public void ThenIShouldSeeTheAccountHomePage()
         {
-            ScenarioContext.Current.Pending();
+            CurrentPage.As<AccountHomePage>().CheckIfLogoutLinkExist();
         }
-
+        
         [Then(@"I click Logout")]
         public void ThenIClickLogout()
         {
-            ScenarioContext.Current.Pending();
+            CurrentPage = CurrentPage.As<AccountHomePage>().logout();
         }
-
-        [Then(@"I should see the Login page")]
-        public void ThenIShouldSeeTheLoginPage()
-        {
-            ScenarioContext.Current.Pending();
-        }
-
-
-
     }
 }

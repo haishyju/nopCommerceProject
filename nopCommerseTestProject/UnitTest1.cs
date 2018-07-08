@@ -13,16 +13,17 @@ namespace nopCommerseTestProject
 	[TestClass]
 	public class UnitTest1 : HookInitialize
 	{
-        
+      /*  
         
         [TestMethod]
 		public void TC1_Login()
 		{
 
             CurrentPage = GetInstance<HomePage>();
-            CurrentPage.As<HomePage>().lnkLogin.Click();
-            CurrentPage.As<HomePage>().Login("howareu", "123123");
-            CurrentPage = CurrentPage.As<HomePage>().ClickLogin();
+            System.Threading.Thread.Sleep(4000);
+            CurrentPage = CurrentPage.As<HomePage>().ClickLoginLink();
+            CurrentPage.As<LoginPage>().Login("howareu", "123123");
+            CurrentPage = CurrentPage.As<LoginPage>().ClickLogin();
             CurrentPage.As<AccountHomePage>().lnkLogout.Click();
             DriverContext.Driver.Close();
         }
@@ -39,7 +40,7 @@ namespace nopCommerseTestProject
 
 		}
 
-
+    */
 
 
 	}

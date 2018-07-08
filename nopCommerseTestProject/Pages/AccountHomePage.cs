@@ -1,4 +1,5 @@
 ﻿using nopCommerseAutoFramework.Base;
+using nopCommerseAutoFramework.Extensions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using System;
@@ -20,5 +21,10 @@ namespace nopCommerseTestProject.Pages
 			lnkLogout.Click();
 			return new HomePage();
 		}
-	}
+
+        internal void CheckIfLogoutLinkExist()
+        {
+            lnkLogout.AssertElementPresent();
+        }
+    }
 }

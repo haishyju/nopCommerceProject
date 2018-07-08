@@ -17,38 +17,56 @@ namespace nopCommerseTestProject.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Login")]
+    [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
     public partial class LoginFeature
     {
         
-        private TechTalk.SpecFlow.ITestRunner testRunner;
+        private static TechTalk.SpecFlow.ITestRunner testRunner;
+        
+        private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
 #line 1 "Login.feature"
 #line hidden
         
-        [NUnit.Framework.OneTimeSetUpAttribute()]
-        public virtual void FeatureSetup()
+        public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
         {
-            testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
+            get
+            {
+                return this._testContext;
+            }
+            set
+            {
+                this._testContext = value;
+            }
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute()]
+        public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
+        {
+            testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Login", "\t\tCheck if the Login functionality is working \r\n\t\tas expected with different perm" +
                     "utations and \r\n\t\tcombinations of data.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
-        [NUnit.Framework.OneTimeTearDownAttribute()]
-        public virtual void FeatureTearDown()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute()]
+        public static void FeatureTearDown()
         {
             testRunner.OnFeatureEnd();
             testRunner = null;
         }
         
-        [NUnit.Framework.SetUpAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute()]
         public virtual void TestInitialize()
         {
+            if (((testRunner.FeatureContext != null) 
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "Login")))
+            {
+                global::nopCommerseTestProject.Features.LoginFeature.FeatureSetup(null);
+            }
         }
         
-        [NUnit.Framework.TearDownAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute()]
         public virtual void ScenarioTearDown()
         {
             testRunner.OnScenarioEnd();
@@ -57,6 +75,7 @@ namespace nopCommerseTestProject.Features
         public virtual void ScenarioSetup(TechTalk.SpecFlow.ScenarioInfo scenarioInfo)
         {
             testRunner.OnScenarioStart(scenarioInfo);
+            testRunner.ScenarioContext.ScenarioContainer.RegisterInstanceAs<Microsoft.VisualStudio.TestTools.UnitTesting.TestContext>(TestContext);
         }
         
         public virtual void ScenarioCleanup()
@@ -64,10 +83,11 @@ namespace nopCommerseTestProject.Features
             testRunner.CollectScenarioErrors();
         }
         
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Check Login with correct username and password")]
-        [NUnit.Framework.CategoryAttribute("smoke")]
-        [NUnit.Framework.CategoryAttribute("positive")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Login with correct username and password")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Login")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("smoke")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("positive")]
         public virtual void CheckLoginWithCorrectUsernameAndPassword()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check Login with correct username and password", new string[] {
@@ -79,6 +99,10 @@ namespace nopCommerseTestProject.Features
   testRunner.Given("I have navigated to the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
   testRunner.And("I see application opened", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 10
+  testRunner.When("I clickon Login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+  testRunner.Then("I should see Loginpage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "UserName",
@@ -86,16 +110,14 @@ namespace nopCommerseTestProject.Features
             table1.AddRow(new string[] {
                         "howareu",
                         "123123"});
-#line 10
-  testRunner.When("I clickon Login and I enter Username and Password", ((string)(null)), table1, "When ");
-#line 13
-  testRunner.Then("click login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 14
-  testRunner.Then("I should see the AccountHome Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 12
+  testRunner.And("I enter Username and Password", ((string)(null)), table1, "And ");
 #line 15
-  testRunner.Then("I click Logout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("I click login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 16
-  testRunner.Then("I should see the Login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("I should see the AccountHome Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 17
+  testRunner.Then("I click Logout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

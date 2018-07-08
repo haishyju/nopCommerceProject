@@ -1,6 +1,5 @@
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nopCommerseAutoFramework.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nopCommerseAutoFramework.pdb
-C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFramework.csprojAssemblyReference.cache
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFramework.csproj.CoreCompileInputs.cache
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFramework.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFramework.pdb
@@ -17,3 +16,5 @@ C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\System.ValueTuple.
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\TechTalk.SpecFlow.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\Newtonsoft.Json.xml
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\Config\GlobalConfig.xml
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nopCommerseAutoFramework.dll.config
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\TestReport.SpecFlow.dll
