@@ -12,9 +12,10 @@ namespace nopCommerseTestProject
        [Binding]
     public class HookInitialize : TestInitializeHook
     {
-        public HookInitialize(): base(BrowserType.Chrome)
+        public HookInitialize(): base(BrowserType.Firefox)
         {
             InitializeSttings();
+            
             NavigateSite();
         }
         [BeforeFeature]

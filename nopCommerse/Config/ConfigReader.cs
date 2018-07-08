@@ -10,28 +10,30 @@ using System.IO;
 
 namespace nopCommerseAutoFramework.Config
 {
-	public class ConfigReader
-	{
-
-		//public static string InitializeTest()
-		//{
-			//return ConfigurationManager.AppSettings["AUT"].ToString();
-		//}
+    public class ConfigReader
+    {
 
         public static void SetFrameworkSettings()
         {
 
             XPathItem aut;
             XPathItem testtype;
+            XPathItem islog;
+            XPathItem logPath;
 
             string strFileName = Environment.CurrentDirectory.ToString() + "\\Config\\GlobalConfig.xml";
             FileStream stream = new FileStream(strFileName, FileMode.Open);
             XPathDocument document = new XPathDocument(stream);
             XPathNavigator navigator = document.CreateNavigator();
             aut = navigator.SelectSingleNode("nopCommerseAutoFramwork/RunSettings/AUT");
-            Settings.AUT = aut.ToString();
-            
+            islog = navigator.SelectSingleNode("nopCommerseAutoFramwork/RunSettings/IsLog");
+            logPath = navigator.SelectSingleNode("nopCommerseAutoFramwork/RunSettings/LogPath");
+
+            Settings.AUT = aut.Value.ToString();
+            Settings.IsLog = islog.Value.ToString();
+            Settings.LogPath = logPath.Value.ToString();
+
         }
 
-	}
+    }
 }

@@ -1,4 +1,5 @@
 ﻿using nopCommerseAutoFramework.Config;
+using nopCommerseAutoFramework.Helpers;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
@@ -26,6 +27,8 @@ namespace nopCommerseAutoFramework.Base
 
             //Set Log
 
+            LogHelpers.CreateLogFile();
+
             //openBrowser
             OpenBrowser(Browser);
 
@@ -51,7 +54,7 @@ namespace nopCommerseAutoFramework.Base
                     DriverContext.Browser = new Browser(DriverContext.Driver);
                     break;
                 default:
-                    DriverContext.Driver = new ChromeDriver();
+                    DriverContext.Driver = new InternetExplorerDriver();
                     DriverContext.Browser = new Browser(DriverContext.Driver);
 
                     break;
