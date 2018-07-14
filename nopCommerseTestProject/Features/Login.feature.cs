@@ -84,13 +84,13 @@ namespace nopCommerseTestProject.Features
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Login with correct username and password")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check Login with correct UserName and Password")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Login")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("smoke")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("positive")]
-        public virtual void CheckLoginWithCorrectUsernameAndPassword()
+        public virtual void CheckLoginWithCorrectUserNameAndPassword()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check Login with correct username and password", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check Login with correct UserName and Password", new string[] {
                         "smoke",
                         "positive"});
 #line 7
@@ -111,13 +111,13 @@ namespace nopCommerseTestProject.Features
                         "howareu",
                         "123123"});
 #line 12
-  testRunner.And("I enter Username and Password", ((string)(null)), table1, "And ");
+  testRunner.When("User enter credentials", ((string)(null)), table1, "When ");
 #line 15
-  testRunner.Then("I click login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.And("I click login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 16
   testRunner.Then("I should see the AccountHome Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 17
-  testRunner.Then("I click Logout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.And("I clickon logout button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

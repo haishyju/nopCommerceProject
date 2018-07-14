@@ -20,6 +20,7 @@ namespace nopCommerseAutoFramework.Config
             XPathItem testtype;
             XPathItem islog;
             XPathItem logPath;
+            XPathItem browser;
 
             string strFileName = Environment.CurrentDirectory.ToString() + "\\Config\\GlobalConfig.xml";
             FileStream stream = new FileStream(strFileName, FileMode.Open);
@@ -28,10 +29,12 @@ namespace nopCommerseAutoFramework.Config
             aut = navigator.SelectSingleNode("nopCommerseAutoFramwork/RunSettings/AUT");
             islog = navigator.SelectSingleNode("nopCommerseAutoFramwork/RunSettings/IsLog");
             logPath = navigator.SelectSingleNode("nopCommerseAutoFramwork/RunSettings/LogPath");
+            browser = navigator.SelectSingleNode("nopCommerseAutoFramwork/RunSettings/Browser");
 
             Settings.AUT = aut.Value.ToString();
             Settings.IsLog = islog.Value.ToString();
             Settings.LogPath = logPath.Value.ToString();
+           
 
         }
 

@@ -36,6 +36,7 @@ C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\nopComm
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\nopCommerseTestProject.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\nopCommerseTestProject.pdb
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\HtmlAgilityPack.dll
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\ICSharpCode.SharpZipLib.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\ImpromptuInterface.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\log4net.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
@@ -52,7 +53,6 @@ C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\System.
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\System.ValueTuple.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\System.Web.Razor.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\TechTalk.SpecFlow.dll
-C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\TestReport.SpecFlow.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\WebDriver.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\WebDriver.Support.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\nopCommerseAutoFramework.pdb

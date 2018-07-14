@@ -21,9 +21,6 @@ namespace nopCommerseAutoFramework.Base
                 _driver = DriverContext.Driver
             };
 
-
-
-
             PageFactory.InitElements(DriverContext.Driver, pageInstance);
             return pageInstance;
         }

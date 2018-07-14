@@ -16,10 +16,10 @@ namespace nopCommerseTestProject.Pages
 		[FindsBy(How = How.XPath, Using = "//a[@class='ico-logout']")]
 		public IWebElement lnkLogout { get; set; }
 
-		public HomePage logout()
+		public LoginPage logout()
 		{
 			lnkLogout.Click();
-			return new HomePage();
+            return GetInstance<LoginPage>();
 		}
 
         internal void CheckIfLogoutLinkExist()

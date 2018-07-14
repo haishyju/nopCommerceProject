@@ -1,4 +1,4 @@
-﻿using nopCommerseAutoFramework.Base;
+﻿ using nopCommerseAutoFramework.Base;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using System;

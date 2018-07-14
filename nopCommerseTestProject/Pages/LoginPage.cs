@@ -55,6 +55,16 @@ namespace nopCommerseTestProject.Pages
             return new RegistrationPage();
         }
 
+        public void getPageTitle(string expect_title)
+        {
+            string act_title = DriverContext.Driver.Title.ToString();
+            if(expect_title.Equals(act_title))
+
+            {
+                Console.WriteLine("TC passed");
+            }
+        }
+
     }
 
 

@@ -30,6 +30,7 @@ namespace nopCommerseAutoFramework.Helpers
                 Directory.CreateDirectory(dir);
                 _streamw = File.AppendText(dir + _logFileName + ".log");
             }
+            
         }
 
 

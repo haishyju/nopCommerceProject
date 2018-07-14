@@ -2,13 +2,16 @@ C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\Config\GlobalConfi
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nopCommerseAutoFramework.dll.config
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nopCommerseAutoFramework.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nopCommerseAutoFramework.pdb
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\ImpromptuInterface.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\Newtonsoft.Json.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nunit.framework.dll
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\SpecFlow.Assist.Dynamic.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\System.ValueTuple.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\TechTalk.SpecFlow.dll
-C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\TestReport.SpecFlow.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\WebDriver.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\WebDriver.Support.dll
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\ImpromptuInterface.xml
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\Newtonsoft.Json.xml
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nunit.framework.pdb
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nunit.framework.xml
