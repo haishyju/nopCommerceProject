@@ -48,6 +48,7 @@ C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\Newtons
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\nopCommerseAutoFramework.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\nunit.framework.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\RazorEngine.dll
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\RestSharp.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\SpecFlow.Assist.Dynamic.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerseTestProject\bin\Debug\System.ValueTuple.dll

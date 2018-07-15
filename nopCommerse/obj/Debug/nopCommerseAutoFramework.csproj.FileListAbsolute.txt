@@ -6,6 +6,7 @@ C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\ICSharpCode.SharpZ
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\ImpromptuInterface.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\Newtonsoft.Json.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\nunit.framework.dll
+C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\RestSharp.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\SpecFlow.Assist.Dynamic.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\System.ValueTuple.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\bin\Debug\TechTalk.SpecFlow.dll
@@ -21,4 +22,3 @@ C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFra
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFramework.csproj.CopyComplete
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFramework.dll
 C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFramework.pdb
-C:\Users\vpshy\source\repos\nopCommerse\nopCommerse\obj\Debug\nopCommerseAutoFramework.csprojAssemblyReference.cache

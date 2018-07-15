@@ -15,17 +15,17 @@ namespace nopCommerseAutoFramework.Base
             _driver = driver;
         }
 
-        public BrowserType Type { get; set; }
+       // public BrowserType Type { get; set; }
         public void GoToUrl(string url)
        {
             DriverContext.Driver.Url = url;
         }
     }
 
-    public enum BrowserType
-    {
-        InternetExplorer,
-        Firefox,
-        Chrome
+   public enum BrowserType
+   {
+       InternetExplorer,
+      Firefox,
+       Chrome
     }
 }

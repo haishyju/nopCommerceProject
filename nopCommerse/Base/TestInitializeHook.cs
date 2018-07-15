@@ -38,7 +38,7 @@ namespace nopCommerseAutoFramework.Base
         }
 
         private void OpenBrowser(BrowserType browserType = BrowserType.Chrome)
-            
+
         {
             switch (browserType)
             {

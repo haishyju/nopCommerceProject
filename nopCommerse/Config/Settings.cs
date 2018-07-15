@@ -14,7 +14,7 @@ namespace nopCommerseAutoFramework.Config
         public static string AUT { get; set; }
         //public static string BUILD { get; set; }
         
-        //public static BrowserType BrowserType { get; set; }
+        public static BrowserType BrowserType { get; set; }
         public static string IsLog { get; set; }
         public static string LogPath { get; set; }
     }
